@@ -14,7 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CleverLegal - Law, Tech & Marketing Thinktank",
-  description: "In the making but probably coming much sooner than you might think...",
+  description: "Our Law, Tech & Marketing Thinktank is in the making but probably coming much sooner than you might think...",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png"
+  }
 };
 
 export default function RootLayout({
